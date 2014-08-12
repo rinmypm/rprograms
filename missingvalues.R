@@ -1,0 +1,6 @@
+x <- c(1,2,NA,10,3)
+print(is.na(x))
+print(is.nan(x))
+x <- c(1,2,NaN,NA,5)
+print(is.na(x))
+print(is.nan(x))

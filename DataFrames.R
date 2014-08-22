@@ -1,0 +1,11 @@
+x <- data.frame(foo=1:4, bar = c(T, T, F,F))
+print(x)
+print(nrow(x))
+print(ncol(x))
+print(names(x))
+names(x) <- c("one","two")
+print(names(x))
+
+m <- matrix(1:4, nrow = 2, ncol = 2)
+dimnames(m) <- list(c("a", "b"), c("c", "d"))
+print(m)
